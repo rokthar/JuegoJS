@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+    padding: 0px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    border: 7px solid #aa4;
+}
+.pointer{
+    background-color: #444;
+    height: 50px;
+    margin-top: 30px;
+    border-bottom: 0px;
+    color: #fafafa;
+    font-size: 20px;
+    text-align: center;
+}
+
+#player{
+    background-color: chocolate;
+    width: 50px;
+    height: 50px;
+    border-radius: 29px;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+#enemy{
+    background-color: #444;
+    width: 50px;
+    height: 50px;
+    border-radius: 29px;
+    position: absolute;
+    transition: all 0.3s;
+}
